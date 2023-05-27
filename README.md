@@ -27,3 +27,31 @@ pip install opencv-python numpy pycocotools
 
 Limitations:
 This script assumes that the COCO annotations are correct and complete. If there are errors or missing data in the annotations, the script may not generate the masks correctly.
+
+
+Generating COCO Files and Adding Annotations Using makesense.ai
+makesense.ai is an online tool that allows you to easily add annotations to your images and export them in various formats, including COCO JSON format.
+
+Here are the steps to generate COCO files and add annotations to your images using makesense.ai:
+
+1. Upload Your Images
+Go to makesense.ai.
+Click on the + Select Images button.
+Select the images you want to annotate and click Open.
+
+2. Label Your Images
+Click on the + Add new label button to create a new label.
+Enter the name of the label and click Add.
+Repeat this process for all the labels you need.
+To label an image, select the label you want to use, then click and drag on the image to create a bounding box or polygon around the object you want to label.
+Repeat this process for all the objects you want to label in each image.
+
+3. Export Your Annotations
+Once you've labeled all your images, click on the Export button in the top right corner.
+Select COCO (JSON) as the export format.
+Click on the Download button to download your annotations in COCO JSON format.
+
+4. Use the COCO JSON File
+The downloaded COCO JSON file can be used directly with the Python script provided in this repository. Just specify the path to the COCO JSON file when running the script.
+
+Please note that makesense.ai is a third-party tool, and its interface or functionality may change over time. If you encounter any issues or have any questions about using makesense.ai, please refer to their official documentation or contact their support.
