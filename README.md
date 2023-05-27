@@ -6,8 +6,11 @@ Supports multiple categories with different colors for each category.
 Processes images in parallel using multiple workers to speed up the mask generation.
 Handles errors gracefully and skips over images or annotations that cause problems.
 Outputs colored masks as PNG images.
+
 Usage:
-To run this script, you need to provide three positional arguments: coco_dir, image_dir, and output_dir. Additionally, you can provide an optional argument --num-workers to specify the number of parallel workers for processing images.
+To run this script, you need to provide three positional arguments: 
+coco_dir, image_dir, and output_dir. Additionally, you can provide an optional argument --num-workers 
+to specify the number of parallel workers for processing images.
 
 Here is an example of how to run this script from the command line:
 python3 mask_generator.py /path/to/coco_dir /path/to/image_dir /path/to/output_dir --num-workers 4
