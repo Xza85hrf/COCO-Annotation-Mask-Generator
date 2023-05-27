@@ -1,0 +1,4 @@
+NonMaskingBackground
+MaskingBackground
+Animal
+NonMaskingForegroundAttention
