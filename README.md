@@ -18,10 +18,10 @@ python3 mask_generator.py /path/to/coco_dir /path/to/image_dir /path/to/output_d
 Replace mask_generator.py with the name of your Python script, and replace /path/to/coco_dir, /path/to/image_dir, and /path/to/output_dir with the actual paths to your COCO annotations directory, image directory, and output directory, respectively. The --num-workers 4 part is optional and specifies that 4 workers should be used for parallel processing. If you don't provide this argument, the script will use 4 workers by default.
 
 Requirements:
-Python 3
-OpenCV
-NumPy
-pycocotools
+Python 3,
+OpenCV,
+NumPy,
+pycocotools,
 You can install the required Python packages using pip:
 pip install opencv-python numpy pycocotools
 
